@@ -13,3 +13,11 @@ This program does all of the work, depending on the type of log files inputted, 
 
 # Usage
 
+`main.py` works in the cases where log files are written more cleanly, with spaces. It splices each line among spaces, although in the future this will be expanded with other characters. The program takes input for a "starting signature", or some symbol to indicate a method has begun execution. It similarly also takes an "ending" signature. You then enter a method for which you want statistics on runtime, and in the next window, a distribution is shown, along with a list of runtimes, and an option to export this data to a `.csv` file that is automatically created. The distribution is also exported as a standalone image in the same directory. 
+
+# Roadmap/Future Work
+
+- Expand `main.py` to reduce the core assumptions made about log file structure, and allow the user to more easily specify the structure of the lines in the log files.
+- Create a standalone module for generating statistics.
+- Create a system for retrieving line #'s in between method executions (starting and ending), and report that data according to the user's choosing.
+- Improve the `.csv` file writing to work across multiple methods. 
