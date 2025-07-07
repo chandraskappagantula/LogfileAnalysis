@@ -22,6 +22,6 @@ This program does all of the work, depending on the type of log files inputted, 
 # Roadmap/Future Work
 
 - Expand `main.py` to reduce the core assumptions made about log file structure, and allow the user to more easily specify the structure of the lines in the log files.
-- Create a standalone module for generating statistics.
+- ~~Create a standalone module for generating statistics.~~
 - Create a system for retrieving line #'s in between method executions (starting and ending), and report that data according to the user's choosing.
 - Improve the `.csv` file writing to work across multiple methods. 
